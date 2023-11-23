@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'MYYeongnamnu';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+    
+/* 메뉴 */
+.menubar {
+
+	top: 0;
+	left: 0;
+	height: 45px;
+	position: fixed;
+    width: 1259px;
+	background-color: white;
+	padding: 10px 330px;
+	z-index: 100;
+	filter: drop-shadow(0px -4px 10px rgba(50, 75, 76, 0.25));
+}
+
+.main a {
+	position: relative;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	top: -5px;
+	
+	text-decoration: none;
+	color: #324B4C;
+	font-family: 'Pretendard-Regular';
+}
+
+.menu {
+	float: right;
+	
+}
+
+.menuul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: purple;
+}
+
+.menuli {
+	display: inline-block;
+	
+	color: pink;
+}
+
+.menuli1 {
+	display: inline-block;
+	margin-right: -50px;
+	color: pink;
+}
+
+.menuli a {
+	position: relative;
+	padding: 13px 20px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Pretendard-Regular';
+}
+
+.menuli1 a {
+	position: relative;
+	padding: 0px 28px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Pretendard-Regular';
+}
+
+.menuli a:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #79a8a9;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.menuli a:hover:after {
+	width: 100%;
+	left: 0;
+}
+
+.menuli1 a:hover {
+	color: #79a8a9;
+}
+.notify{
+	background-color : white;
+	border : none;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+    font-size: 16px;
+	padding: 13px 20px;
+	cursor : pointer;
+	
+}
+.profileul{
+	list-style : none;
+	
+}
+.profileul a{
+	text-decoration : none;
+	color : black;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+}
+.profileli{
+	width: 100px;
+    text-align: center;
+    padding: 10px 10px;
+    border : 1px solid lightgray;
+    background-color: white;
+    border-radius : 10px;
+}
+.myprofile{
+	background-color : white;
+	border : none;
+	cursor : pointer;
+}
+.profileul{
+	position: relative;
+    left: 350px;
+    bottom: 26px;
+    
+}
+
+.notificationli{
+	display : none;
+	background-color : white;
+	position : fixed;
+	
+	
+	
+}
+#notificationsTable{
+	 border-collapse: collapse;
+	 color : black;
+	 font-family: 'Pretendard-Regular';
+	 font-weight : bold;
+	 background-color : white;
+	 border : 1px solid black;
+	 box-shadow : 0px 0px 3px 0px;
+	 left : 1516px;
+	 
+	 
+}

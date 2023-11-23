@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body{
+	font-family: 'Pretendard-Regular';
+	width : 1890px;
+}
+.autornav{
+	background-color : #324B4C;
+	
+	padding : 0px 320px;
+	
+	
+}
+.authordiv{
+	background-color : white;
+	height : 500px;
+	box-shadow : 0px 0px 3px 0px;
+	
+	
+}
+.left-arrowdiv{
+	width : auto;
+	height : 150px;
+	box-shadow : 0px 0px 3px 0px;
+	
+}
+
+.autorsec{
+	background-color : #324B4C;
+	
+}
+.authorprofile{
+	position: relative;
+    display: flex;
+    flex-direction: column; /* 세로 정렬을 위해 컨테이너 내용을 세로로 배치합니다. */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  height: 300px;
+  	top : 23px;
+	
+}
+img{
+	max-width : 100%;
+	height : auto;
+	
+}
+.id{
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	
+}
+.fplus{
+	background-color : #324B4C;
+	color : white;
+	font-size : 18px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	width :150px;
+	height : 40px;
+	border-radius : 15px;
+	border : none;
+}
+.coverimg{
+	background-color : white;
+    width : 150px;
+	height : 150px;
+	box-shadow : 0px 0px 3px 0px;
+	
+}
+.wizard{
+	width : 150px;
+	height : 150px;
+	
+}
+
+.ftitle{
+	position: relative;
+    left: 182px;
+    bottom: 121px;
+    font-size : 23px;
+    font-weight : bold;
+}
+.fInto{
+	font-size : 20px;
+	color : gray;
+	position: relative;
+    left: 180px;
+    bottom: 73px;
+}
+.fuserID{
+	font-size : 18px;
+	color : black;
+	left : 180px;
+	bottom : 100px;
+	position :relative;
+}
+.contentdiv{
+	padding : 0px 320px;
+	background-color : #324b4c;
+	
+}
+.contentdiv2{
+	background-color : white;
+	border-top : 1px solid lightgray;
+	padding : 20px 200px;
+	height : 164px;
+	box-shadow : 0px 0px 2px 0px;
+}
+.date{
+	position: relative;
+    left: 270px;
+    bottom: 143px;
+    color: gray;
+}
+.character{
+	width: 150px;
+    height: 150px;
+}
+.characterdiv{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    border-radius : 50%;
+    text-align: center;
+    box-shadow: 2px 1px 4px 1px;
+	border : 2px solid #324b4c;
+
+}

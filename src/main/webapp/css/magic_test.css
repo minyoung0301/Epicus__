@@ -1,0 +1,927 @@
+@charset "UTF-8";
+body{
+	width : 1454px;
+	margin: 80px 150px;
+	
+}
+@font-face {
+	font-family: 'MYYeongnamnu';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+    
+/* 메뉴 */
+.menubar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 45px;
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	z-index: 100;
+	filter: drop-shadow(0px -4px 10px rgba(50, 75, 76, 0.25));
+}
+
+.main a {
+	position: relative;
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+	top: -5px;
+	left: 45px;
+	text-decoration: none;
+	color: #324B4C;
+	font-family: 'MYYeongnamnu';
+}
+
+.menu {
+	float: right;
+	padding: 0px 45px;
+}
+
+.menuul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: purple;
+}
+
+.menuli {
+	display: inline-block;
+	margin-right: 10px;
+	color: pink;
+}
+
+.menuli1 {
+	display: inline-block;
+	margin-right: -50px;
+	color: pink;
+}
+
+.menuli a {
+	position: relative;
+	padding: 13px 28px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Pretendard-Regular';
+}
+
+.menuli1 a {
+	position: relative;
+	padding: 0px 28px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Pretendard-Regular';
+}
+
+.menuli a:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: #79a8a9;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.menuli a:hover:after {
+	width: 100%;
+	left: 0;
+}
+
+.menuli1 a:hover {
+	color: #79a8a9;
+}
+
+/* 화면 */
+
+	
+.section1 {
+	height: 100%;
+}
+
+.section2 {
+	height: 100%;
+	margin-top: 230px;
+}
+
+.section3 {
+	height: 100%;
+	margin-top: 200px;
+}
+
+.section4 {
+	height: 100%;
+	margin-top: 230px;
+}
+
+.section5 {
+	height: 100%;
+	margin-top: 250px;
+}
+
+.section6 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section7 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section8 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section9 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section10 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section11 {
+	height: 100%;
+	margin-top: 3000px;
+}
+
+.section12 {
+	height: 100%;
+	margin-top: 3000px;
+}
+.body {
+	width: 100%;
+	height: 100%;
+}
+
+/* 장르선택 */
+.sub_title {
+	position: relative;
+	margin-top: 80px;
+	float: right;
+	right: 100px
+}
+
+.Select_genre>h4 {
+	margin-right: 820px;
+	font-size: 32px;
+	font-family: 'BMDOHYEON';
+}
+
+.Select_genre>h5 {
+	font-size: 18px;
+	padding-top: 15px;
+	font-family: 'Hanna', fantasy;
+}
+
+hr {
+	position: relative;
+	border: solid 2px #ABB3BD;
+	top: -38px;
+	width: 1018px;
+	margin-left: 370px;
+}
+
+.Pro {
+	float: right;
+}
+
+.Pro>button {
+	position: relative;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+	left: -200px;
+	top: -145px;
+	font-size: 28px;
+}
+
+.select_G {
+	position: relative;
+	margin-right: 62px;
+	border: 1px solid #324B4C;
+	background: #324B4C;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.G {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.K {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Plane {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.B {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.P {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.I {
+	position: relative;
+	background: #F6F6F6;
+	border: none;
+	color: #7E7E7E;
+	box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+progress::-webkit-progress-value {
+	background-color: #324B4C;
+}
+
+#progress::-webkit-progress-bar {
+	background: #f0f0f0;
+	border-radius: 10px;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#progress {
+	position: relative;
+	height: 5px;
+	width: 700px;
+	left: 530px;
+	top: -115px;
+	background-color: white;
+}
+
+.retangle {
+	position: relative;
+	height: 133px;
+	width: 1454px;
+	top: -20px;
+	border-radius: 30px;
+	left: 385px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #F0F2F2;
+}
+.Select_genre{
+	position : relative;
+	width : 1454px;
+	text-align : center;
+	
+}
+
+.Pro_name {
+	position: relative;
+	display: flex;
+	font-size: 10px;
+	top: -100px;
+	left: 500px;
+	margin-right: 40px;
+	white-space: nowrap
+}
+
+.Pro_name .p1 {
+	margin-right: 80px;
+}
+
+.Pro_name .p2 {
+	margin-right: 80px;
+	color: #7E7E7E;
+}
+
+.Pro_name .p3 {
+	margin-right: 89px;
+	color: #7E7E7E;
+}
+
+.Pro_name .p4 {
+	margin-right: 88px;
+	color: #7E7E7E;
+}
+
+.Pro_name .p5 {
+	margin-right: 75px;
+	color: #7E7E7E;
+}
+
+.Pro_name .p6 {
+	margin-right: 60px;
+	color: #7E7E7E;
+}
+
+.Pro_name .p7 {
+	color: #7E7E7E;
+}
+
+.GS  h5 {
+	position: relative;
+	margin-left: 480px;
+}
+
+.Title_genre h5 {
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+	font-size: 19px;
+}
+
+.Title_genre hr {
+	position: relative;
+	top: -118px;
+}
+
+.Title_genre h6 {
+	font-size: 12px;
+	position: relative;
+	top: -170px;
+	left: 490px;
+	color: #A0A8B4;
+}
+
+.retangle1 {
+	position: relative;
+	height: 238px;
+	width: 1020px;
+	top: -190px;
+	left: 370px;
+	background-color: #F0F2F2
+}
+
+/* 체크박스 */
+#checkbox-container_1 {
+	position: relative;
+	font-size: 19px;
+	float: right;
+	bottom: 410px;
+	right: -190px;
+	margin-left: 40px;
+}
+
+#checkbox-container_1 label {
+	margin-left: 150px;
+	line-height: 30px;
+}
+
+#checkbox-container_1 hr {
+	position: relative;
+	top: 10px;
+	right: 248px;
+}
+
+.Next_Button1 button {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	top: -380px;
+	right: 100px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 10px;
+}
+/* 장르정리 */
+.Select_genre1>h4 {
+	margin-right: 720px;
+	font-size: 32px;
+	font-family: 'BMDOHYEON';
+}
+
+.Select_genre1>h5 {
+	font-size: 18px;
+	padding-top: 15px;
+	right: 0px;
+	font-family: 'Hanna', fantasy;
+}
+
+.retangle2 {
+	position: relative;
+	height: 238px;
+	width: 1020px;
+	top: -125px;
+	left: 370px;
+	background-color: #F0F2F2
+}
+
+.Title_genre2 h5 {
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+	font-size: 19px;
+}
+
+.Title_genre2 hr {
+	position: relative;
+	top: 125px;
+}
+
+#checkbox-container_12 {
+	position: relative;
+	font-size: 19px;
+	float: right;
+}
+
+#checkbox-container_12 textarea {
+	position: relative;
+	top: -340px;
+	right: -20px;
+	width: 935px;
+	height: 190px;
+	resize: none;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+#checkbox-container_12 hr {
+	position: relative;
+	top: -569px;
+	right: 58px;
+	border: soild 1px;
+	border-radius: 100px;
+	margin-left: 40px;
+}
+
+.Next_Button12 {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	top: 280px;
+}
+
+.Next_Button12 button {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	top: -375px;
+	right: 100px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 10px;
+}
+
+.Next_Button12 .Before {
+	left: 390px;
+}
+
+.Next_Button12 .Next {
+	left: 960px;
+}
+
+/* 키워드 선택 */
+
+.Select_genre3>h4 {
+	margin-right: 820px;
+	font-size: 32px;
+	font-family: 'BMDOHYEON';
+}
+
+.Select_genre3>h5 {
+	font-size: 18px;
+	padding-top: 15px;
+	font-family: 'Hanna', fantasy;
+}
+
+.G3 {
+	position: relative;
+	margin-right: 62px;
+	background: #324B4C;
+	border: none;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Pro_name .p23 {
+	margin-right: 80px;
+	color: black;
+}
+
+.Next_Button13 button {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	top: -400px;
+	right: 100px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 10px;
+}
+
+.Next_Button13 .Before3 {
+	position: relative;
+	left: -860px;
+}
+
+#checkbox-container_13 {
+	position: relative;
+	font-size: 13px;
+	float: right;
+	bottom: 430px;
+	right: -240px;
+	margin-left: 40px;
+}
+
+#checkbox-container_13 label {
+	margin-left: 100px;
+	line-height: 30px;
+}
+
+#checkbox-container_13 hr {
+	position: relative;
+	top: 10px;
+	right: 300px;
+}
+
+.retangle13 {
+	position: relative;
+	height: 248px;
+	width: 1020px;
+	top: -190px;
+	left: 370px;
+	background-color: #F0F2F2
+}
+
+.Title_genre3 h5 {
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+	font-size: 19px;
+}
+
+.Title_genre3 hr {
+	position: relative;
+	top: -118px;
+}
+
+.Title_genre3 h6 {
+	font-size: 12px;
+	position: relative;
+	top: -170px;
+	left: 510px;
+	color: #A0A8B4;
+}
+/* 키워드정리 */
+.Select_genre4>h4 {
+	margin-right: 620px;
+	font-size: 32px;
+	font-family: 'BMDOHYEON';
+}
+
+.Select_genre4>h5 {
+	font-size: 18px;
+	padding-top: 15px;
+	right: -86px;
+	font-family: 'Hanna', fantasy;
+}
+/* 시간적배경선택 */
+.Title_genre5 h5 {
+	position: relative;
+	left: 400px;
+	bottom: 90px;
+	font-size: 19px;
+}
+
+.Title_genre5 hr {
+	position: relative;
+	top: -118px;
+}
+
+.Title_genre5 h6 {
+	font-size: 12px;
+	position: relative;
+	top: -170px;
+	left: 595px;
+	color: #A0A8B4;
+}
+
+.K5 {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: 1px solid #324B4C;
+	background: #324B4C;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.Pro_name .p35 {
+	margin-right: 89px;
+	color: Black;
+}
+
+.Next_Button15 button {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	top: -380px;
+	right: 100px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 10px;
+}
+.Next_Button15 .Before3 {
+	position: relative;
+	left: -860px;
+}
+/* 배경정리 */
+.Select_genre7>h4 {
+	margin-right: 820px;
+	font-size: 32px;
+	font-family: 'BMDOHYEON';
+}
+
+.Select_genre7>h5 {
+	font-size: 18px;
+	padding-top: 15px;
+	font-family: 'Hanna', fantasy;
+}
+
+.retangle3 {
+	position: relative;
+	height: 238px;
+	width: 1020px;
+	top: -125px;
+	left: 370px;
+	background-color: #F0F2F2
+}
+
+.background_1 {
+	margin-top : 20px;
+	margin-left : 20px;
+	font-size : 16px;
+}
+
+.background_2 {
+	position: relative;
+	top : -18px;
+	margin-left : 20px;
+	font-size : 13px;
+}
+
+#checkbox-container_71 {
+	position: relative;
+	top : -20px;
+	margin-left : 20px;	
+}
+
+#checkbox-container_71 textarea {
+	position: relative;;
+	width: 935px;
+	height: 100px;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+.background_3 {
+	position: relative;
+	top : -18px;
+	margin-left : 20px;
+	font-size : 13px;
+}
+
+.background_4 {
+	margin-top : 20px;
+	margin-left : 20px;
+	font-size : 16px;
+}
+
+.hr1 {
+	position: relative;
+	top : -25px;
+}
+
+.Next_Button16 button {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	top: -90px;
+	right: 100px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 10px;
+}
+
+.Next_Button16 .Before3 {
+	position: relative;
+	left: -860px;
+}
+
+/* 인물목록 */
+
+.retangle4 {
+	position: relative;
+	height: 238px;
+	width: 1020px;
+	top: -125px;
+	left: 370px;
+	background-color: #F0F2F2
+}
+.retangle5 {
+	position: relative;
+	height: 238px;
+	width: 500px;
+	top: -125px;
+	left: 370px;
+	background-color: #F0F2F2;
+	border: solid 1px #324B4C;
+}
+.retangle6 {
+	position: relative;
+	height: 238px;
+	width: 500px;
+	top: -125px;
+	left: 370px;
+	background-color: #F0F2F2;
+	border: solid 1px #324B4C;
+}
+
+.add {
+	position: relative;
+	font-size: 12px;
+	float: right;
+	width: 50px;
+	height: 20px;
+	top: -155px;
+	right: 70px;
+	border: solid 1px #324B4C;
+	background-color: #324B4C;
+	color: white;
+	border-radius: 5px;
+}
+.Plane8 {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: 1px solid #324B4C;
+	background: #324B4C;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.Pro_name .p48 {
+	margin-right: 89px;
+	color: Black;
+}
+/* 사건설정 */
+.B9 {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: 1px solid #324B4C;
+	background: #324B4C;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.Pro_name .p59 {
+	margin-right: 72px;
+	color: Black;
+}
+#checkbox-container_91 {
+	position: relative;
+	top : -20px;
+	margin-left : 20px;	
+}
+
+#checkbox-container_91 input {
+	position: relative;;
+	width: 935px;
+	height: 150px;
+	resize: none;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+/* 지필하기 */
+.P10 {
+	position: relative;
+	margin-right: 62px;
+	background: #F6F6F6;
+	border: 1px solid #324B4C;
+	background: #324B4C;
+	color: white;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.Pro_name .p610 {
+	margin-right: 79px;
+	color: Black;
+}
+#checkbox-container_101 {
+	position: relative;
+	top : -20px;
+	margin-left : 20px;	
+}
+
+#checkbox-container_101 input {
+	position: relative;;
+	width: 935px;
+	height: 150px;
+	resize: none;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+/* 지필하기-1 */
+#checkbox-container_111 {
+	position: relative;
+	top : -20px;
+	margin-left : 20px;	
+}
+
+#checkbox-container_111 input {
+	position: relative;
+	width: 935px;
+	height: 500px;
+	resize: none;
+	overflow: auto;
+	white-space: pre-wrap;
+}
+
+/* 트리뷰 */
+.treeview {
+	 
+	 bottom: 180px;
+	position : absolute;
+	 height: 400px;
+	width: 300px;
+	background-color: #F0F2F2;
+	border: 1px solid white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	cursor: move;
+      overflow: auto;
+      transition: width 0.3s;
+	font-family: 'Pretendard-Regular';
+}
+
+#treeview {
+}
+.ul {
+	font-family: 'Pretendard-Regular';
+}
+ #treeview-container {
+     width: 70%;
+    }
+

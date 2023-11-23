@@ -1,0 +1,295 @@
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+.mycontent{
+	position : relative;
+	margin : 0px 550px;
+	margin-top :30px;
+	
+}
+.mycontenth1{
+	font-family: 'Pretendard-Regular'
+}
+.bar{
+	background-color : #324B4C;
+	height : 60px;
+	
+}
+
+.title{
+	text-align : center;
+	color : white;
+	font-family: 'Pretendard-Regular';
+	font-size : 30px;
+	position : relative;
+	bottom : 10px;
+	
+	
+	margin: 0px 500px;
+}
+.title1{
+	text-align : center;
+	color : white;
+	font-family: 'Pretendard-Regular';
+	font-size : 30px;
+	position : relative;
+	bottom : 28px;
+	
+	
+	margin: 0px 500px;
+}
+.contenttitle{
+	position : relative;
+	padding : 40px 530px;
+	background-color : #F0F2F2;
+	
+	
+}
+.titlespan2{
+	position : absolute;
+	font-family: 'Pretendard-Regular';
+	font-size : 40px;
+	margin : 10px 50px;
+	
+}
+.Intospan{
+	position : absolute;
+	font-family: 'Pretendard-Regular';
+	font-size : 25px;
+	margin : 80px 50px;
+	
+}
+.revisebtn{
+	background-color : white;
+	border : 2px solid #324B4C;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius : 20px;
+	width :200px;
+	height : 40px;
+	font-weight : bold;
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	margin :0px 30px;
+}
+.pluswrite{
+	color : white;
+	background-color : #324B4C;
+	border : 2px solid #324B4C;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius : 20px;
+	width :200px;
+	height : 40px;
+	font-weight : bold;
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	margin :0px 5px;
+}
+.closespan{
+	position :relative;
+	float : right;
+	background-color :  white;
+	border : 4px solid #324b4c;
+	width :50px;
+	height :50px;
+	border-radius : 50%;
+	left :28px; 
+	top :14px;
+}
+.fa-light .fa-lock-keyhole{
+	width :20px;
+	height :20px;
+}
+.listli{
+	list-style: none;
+	
+}
+.viewa{
+	font-family: 'Pretendard-Regular';
+	color : black;
+	text-decoration : none;
+	
+}
+.suma{
+	font-family: 'Pretendard-Regular';
+	color : gray;
+	text-decoration : none;
+	
+}
+.listhr{
+	border : 1px solid rgba(45,64,89,0.2);
+	
+}
+.titlediv{
+	padding : 25px;
+	
+	
+}
+.pagediv{
+	background-color : #F0F2F2;
+	
+	padding : 30px 0px;
+	border-radius : 0px 0px 10px 10px;
+	
+	
+}
+.roundspan{
+	color : white;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular'
+}
+.firstbutton {
+	color : white;
+	border : none;
+	background-color : #324B4C;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular'
+	
+	
+}
+.first {
+	color : white;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular'
+}
+.newbutton{
+	color : white;
+	border : none;
+	background-color : #324B4C;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular'
+	
+}
+.option {
+	position :relative;
+	
+	float : right;
+	
+}
+
+.bardiv{
+	position : relative;
+	margin : 0px 450px;
+	
+	background-color : #324B4C;
+	box-sizing : border-box;
+	padding :25px 60px;
+	border-radius : 10px 10px 0px 0px;
+	width :987px;
+}
+.l{
+	
+	border-left : thick solid #324B4C;
+	height :80px;
+}
+.l2{
+	
+	border-left : thick solid #324B4C;
+	height :80px;
+	float : right;
+	
+}
+.l3{
+	margin : 0px 500px;
+	
+	
+	
+}
+.v{
+	border-left :thick solid #324B4C;
+	height: 120px;
+	float : right;
+	position :relative;
+	bottom : 70px;
+}
+.circle{
+	position :absolute;
+	background-color : white;
+	border-radius : 50%;
+	width :13px;
+	height : 13px;
+	top: 3px;
+    left: 46px;
+    box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+.circle2{
+	position :absolute;
+	background-color : white;
+	border-radius : 50%;
+	width :13px;
+	height : 13px;
+	top: 3px;
+    right: 46px;
+    box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+.list{
+	border : 1px solid #000000;
+	border-radius : 0px 0px 10px 10px;
+	margin : 0px 450px;
+	width : 985px;
+}
+.roundspan2{
+	position : absolute;
+	margin : 10px 30px;
+	font-size : 20px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	
+	
+}
+.titlespan{
+	position : absolute;
+	font-size : 25px;
+	margin : 3px 70px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	
+}
+.infospan{
+	position : absolute;
+	font-size : 18px;
+	font-weight : bold;
+	margin : 50px 70px;
+	font-family: 'Pretendard-Regular';
+	color : lightgray;
+	width : 522px;
+	overflow :auto;
+	
+}
+.downloada{
+	position :absolute;
+	background-color : #324B4C;
+	color : white;
+	border-radius : 10px;
+	padding :10px;
+	border : none;
+	    margin: 50px 690px;
+}
+.ibtn{
+	position :relative;
+    margin: 20px 300px;
+    top : 20px;
+}
+.stardiv{
+	position: absolute;
+    top: 90px;
+    float: right;
+    left: 1345px;
+}
+.stardiv2{
+	position: absolute;
+    top: 90px;
+    float: right;
+    left: 1345px;
+}
+.heartspan{
+	    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 38px;
+}

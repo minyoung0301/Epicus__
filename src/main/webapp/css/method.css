@@ -1,0 +1,88 @@
+@charset "EUC-KR";
+.methodnav{
+	position : relative;
+	margin : 0 auto;
+	padding : 30px 20px;
+	
+}
+.methodh1{
+	position : relative;
+	padding : 0px 500px;
+	text-align : center;
+	
+}
+.methodhr{
+	position : relative;
+	padding : 0px 300px;
+	width : 100px;
+		
+}
+.method{
+	position : relative;
+	padding : 30px 100px;
+	width : 1000px;
+	margin : 30px 300px;
+
+}
+.free{
+	position: relative;
+	background-image : url(free.png);
+	background-color : white;
+	width : 400px;
+	height : 400px;
+	padding : 50px 10px;
+	border-radius : 10%;
+	border-color : #4478A8;
+	color : #525967;
+	box-shadow : 5px 5px 5px 5px;
+	
+}
+.wizard{
+	position : relative;
+	background-image : url(wizard.png);
+	background-color : white;
+	width : 400px;
+	height : 400px;
+	padding : 50px 10px;
+	float : right;
+	border-radius : 10%;
+	border-color: #4478A8;
+	border : 2px;
+	color : #525967;
+	box-shadow : 5px 5px 5px 5px;
+	
+	
+}
+.container{
+	position:relative;
+	padding : 20px 30px;
+	margin : 0px 650px;
+	
+	
+}
+.cancel{
+	position : relative;
+	background-color : white;
+	color : #4478A8;
+	border-radius : 30px 30px 30px 30px;
+	width : 230px;
+	height : 60px;
+	padding : 0px 100px;
+	border-color : #4478A8;
+	
+	
+}
+.next{
+	position : relatvie;
+	background-color : #4478A8;
+	color : white;
+	width : 230px;
+	height : 60px;
+	border-radius : 30px 30px 30px 30px;
+	padding : 0px 100px;
+	float:right;
+	border-color : #4478A8;
+	box-shadow : 5px 5px 5px 5px light gray;
+	
+}
+

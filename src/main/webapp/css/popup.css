@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.open{
+	width : 299px;
+	height : 92px;
+	background-color : #324B4C;
+	color : white;
+	border : none;
+	font-size : 25px;
+	font-family: 'Pretendard-Regular';
+	border-right: 1px solid;
+	font-weight : bold;
+	
+}
+.close{
+	width : 299px;
+	height : 92px;
+	background-color : #324B4C;
+	color : white;
+	border : none;
+	float : right;
+	font-size : 25px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	
+}
+.btndiv{
+	
+}
+body{
+	margin : 0px;
+	width : 600px;
+}
+.txtdiv{
+	text-align : center;
+}
+.openhr{
+	margin: 10px 130px;
+}
+#frm{
+	position : absolute;
+}

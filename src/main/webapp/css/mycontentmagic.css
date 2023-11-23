@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+	overflow : hidden;
+}
+.charactercreate{
+	position : absolute;
+	width : 220px;
+	height : 60px;
+	background-color : #324B4c;
+	color : white;
+	border : none;
+	font-size : 17px;
+	
+	font-family: 'Pretendard-Regular';
+	border-radius : 500px 0px 0px 500px;
+	box-shadow : 12px 8px 15px 4px rgba(0,0,0,0.25);
+	top: 140px;
+}
+.magic{
+	    position: absolute;
+    top: 198px;
+    left: 1205px;
+    width: 31px;
+}
+.freepen{
+	    position: absolute;
+    width: 28px;
+    top: 202px;
+    left: 579px;
+}

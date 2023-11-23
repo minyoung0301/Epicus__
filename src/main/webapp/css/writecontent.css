@@ -1,0 +1,172 @@
+.newcontent{
+	position : relative;
+	margin : 0px 410px;
+	margin-top :70px;
+	font-family: 'Pretendard-Regular';
+	
+	font-weight : bold;
+	text-align : center;
+	padding-top : 70px;
+	
+	
+}
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+.createsec{
+	background-color :rgba(50,75,76,0.07);
+	padding :30px 0px;
+}
+.createhr{
+	margin :0px;
+}
+.createimage{
+	
+	margin : 0px 420px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+}
+.imagebox{
+	margin : 0px 410px;
+	width :900px;
+	height : 30px;
+	background-color : white;
+	border-radius :5px;
+	box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+	border : 1px solid #969FAB;
+}
+.contenttitle{
+	margin : 20px 420px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+}
+.title{
+	margin : 20px 410px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+	box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+.contentInto{
+	margin : 20px 410px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+}
+.into{
+	margin : 20px 410px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+	box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+textarea::placeholder{
+	font-size : 20px;
+}
+.btnfooter{
+	margin : 50px 410px;
+	
+	
+}
+.listbtn{
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+	border-radius : 16px;
+	background-color : white;
+	box-shadow : 2px 12px 14px -5px rgba(0,0,0,0.25);
+	border : 1px solid #324B4C;
+	width : 300px;
+	height : 70px;
+	
+	
+}
+.createbtn{
+	float : right;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	font-weight : bold;
+	box-shadow : 2px 12px 14px -5px rgba(0,0,0,0.25);
+	color : white;
+	border-radius : 16px;
+	background-color : #324B4C;
+	border : none;
+	width : 300px;
+	height : 70px;
+	
+}
+.createhr2{
+	margin :0px 410px;
+	
+}
+.filebtn{
+	text-align : center;
+	border-radius :20px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	
+	color : white;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	
+	width : 120px;
+	height : 30px;
+	margin : 0px 420px;
+	background-color : #324b4c;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 265px;
+    bottom: 136px;
+}
+.round{
+	width : 50px;
+	height : 30px;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+}
+.roundspan{
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+}
+.cover{
+	position: relative;
+	margin : 20px 420px;
+	width : 200px;
+	height : 200px;
+	
+}
+.imginfo{
+	position : relative;
+	left : 670px;
+	bottom : 210px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	font-size : 20px;
+	
+	
+}
+#path{
+	    position: relative;
+    background-color: white;
+    /* display: inline-block; */
+    width: 760px;
+    height: 20px;
+    left: 669px;
+    bottom: 137px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #324b4c;
+    box-shadow: 5px -1px 3px 0px lightgray;
+}
+.imagefile{
+	height : 215px;
+}

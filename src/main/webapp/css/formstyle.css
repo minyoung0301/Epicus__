@@ -1,0 +1,361 @@
+@charset "EUC-KR";
+.body{
+	margin : 0 auto;
+	
+}
+.writenav{
+	position : relative;
+	margin : 0 auto;
+	padding : 10px 30px;
+	width : 1130px;
+	display : block;
+	
+}
+.write-title{
+	
+	font-size : 30px;
+	
+	
+}
+.writeprocess{
+	background-color : #c7dee4;
+	width : 1130px;
+	margin : 0 auto;
+	padding : 50px 0px;
+	
+	
+}
+.container{
+	position : relative;
+	height : 120px;
+}
+.writeprocess .circle1{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	width : 70px;
+	height : 70px;
+	color : white;
+	font-size : 30px;
+	border : none;
+	top : 20px;
+	
+	
+	
+	
+	
+}
+.writeprocess .circle1-1{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	left : 120px;
+	color : white;
+	width : 40px;
+	height:40px;
+	border : none;
+	top : 39px;
+	left : 190px;
+	
+}
+.writeprocess .circle1-2{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	left : 120px;
+	width : 40px;
+	height:40px;
+	color : white;
+	border : none;
+	left : 280px;
+	top : 39px;
+}
+.writeprocess .circle2{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	width : 70px;
+	height : 70px;
+	color : white;
+	font-size : 20px;
+	border : none;
+	top : 20px;
+	left : 376px;
+		
+}
+.writeprocess .circle2-1{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	left : 120px;
+	color : white;
+	width : 40px;
+	height:40px;
+	border : none;
+	top : 39px;
+	left : 470px;
+	
+}
+.writeprocess .circle2-2{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	left : 120px;
+	color : white;
+	width : 40px;
+	height:40px;
+	border : none;
+	top : 39px;
+	left : 550px;
+	
+}
+.writeprocess .circle2-3{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	left : 120px;
+	color : white;
+	width : 40px;
+	height:40px;
+	border : none;
+	top : 39px;
+	left : 630px;
+	
+}
+.writeprocess .circle3{
+	background-color : #4478A8;
+	border-radius : 50%;
+	position: absolute;
+	width : 70px;
+	height : 70px;
+	color : white;
+	font-size : 20px;
+	border : none;
+	top : 20px;
+	left : 694px;
+}
+.writeprocess .circle4{
+	background-color : #ABB3BD;
+	border-radius : 50%;
+	position: absolute;
+	width : 70px;
+	height : 70px;
+	color : white;
+	font-size : 20px;
+	border : none;
+	float : right;
+	top : 20px;
+	left : 990px;
+		
+}
+.writeprocess .processhr1{
+	position : absolute;
+	border-top : 2px dashed #4478A8;
+	background-color : #c7dee4;
+	width : 650px;
+	left : 80px;
+	top : 47px;
+	
+	
+	
+	
+}
+.processhr2{
+	position : absolute;
+	border-top : 2px dashed #2D4059;
+	background-color : #c7dee4;
+	width : 350px;
+	left : 700px;
+	top : 47px;
+}
+
+.writeprocess .container{
+	padding : 0px 70px;
+}
+.writeprocess .textcontainer{
+	position : relative;
+	
+	
+	
+}
+.writeprocess .topic{
+	font-size : 14px;
+	position : absolute;
+	top : 100px;
+	left : 7px;
+	color: #4478A8;
+	font-weight : bold;
+	
+	
+
+}
+.writeprocess .genre{
+	font-size : 14px;
+	position : absolute;
+	top : 85px;
+	left : 126px;
+	color: #4478A8;
+	font-weight : bold;
+	
+	
+}
+.writeprocess .keyword{
+	font-size : 14px;
+	position : absolute;
+	top : 85px;
+	left : 212px;
+	color: #4478A8;
+	font-weight : bold;
+}
+.writeprocess .plan{
+	font-size : 14px;
+	position : absolute;
+	top : 100px;
+	left : 312px;
+	color: #4478A8;
+	font-weight : bold;
+	
+}
+.writeprocess .background{
+	font-size : 14px;
+	position : absolute;
+	top : 85px;
+	left: 406px;
+	color: #4478A8;
+	font-weight : bold;
+	
+}
+.writeprocess .character{
+	font-size : 14px;
+	position :absolute;
+	top : 85px;
+	left : 484px;
+	color: #4478A8;
+	font-weight : bold;
+}
+.writeprocess .event{
+	font-size : 14px;
+	position :absolute;
+	top : 85px;
+	left : 564px;
+	color: #4478A8;
+	font-weight : bold;
+}
+.writeprocess .write{
+	font-size : 14px;
+	position : absolute;
+	top : 100px;
+	left : 634px;
+	color: #4478A8;
+	font-weight : bold;
+}
+.writeprocess .finish{
+	font-size : 14px;
+	position : absolute;
+	top : 100px;
+	left : 944px;
+	color: #4478A8;
+	font-weight : bold;
+}
+.formsection{
+	position : relative;
+	margin : 0 auto;
+	padding : 30px 30px;
+	width : 1130px;
+	display : block;
+	
+	
+}
+.write_start{
+
+	
+}
+.write_start .writeh1{
+	font-weight : bold;
+	font-size : 25px;
+}
+.start{
+	
+	font-weight : bold;
+	font-size : 20px;
+	
+}
+
+.writebox{
+	width : 1100px;
+	margin : 0 auto;
+	padding : 10px 0px;
+	height : 200px;
+	
+	
+	
+}
+
+.step{
+	position : relative;
+	float : right;
+	font-weight : bold;
+	
+	
+}
+.write_start2{
+	padding : 40px 0px;
+}
+.write_start3{
+	padding : 40px 0px;
+	
+}
+.write_start4{
+	padding : 40px 0px;
+}
+.button{
+	position : relative;
+	margin : 0 auto;
+	padding  : 30px 30px;
+	width : 1130px;
+	
+}
+.DBbutton{
+	position : relative;
+	padding : 20px 0px;
+	width : 1130px;
+	margin: 0 auto;
+	
+}
+.before{
+	position : relative;
+	
+	background-color : #4478A8;
+	border : none;
+	color : white;
+	width : 85px;
+	height : 35px;
+	font-size : 20px;
+	object-fit:cover;
+	
+	
+	
+	
+	
+}
+.next{
+	background-color : #4478A8;
+	border : none;
+	color : white;
+	position : relative;
+	float : right;
+	width : 85px;
+	height : 35px;
+	font-size : 20px;
+	object-fit:cover;
+	
+	
+}
+.footerhr{
+	width : 1130px;
+	position : relative;
+	
+}
+.input::placeholder{
+	font-size : 35px;
+}

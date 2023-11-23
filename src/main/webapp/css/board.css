@@ -1,0 +1,274 @@
+@charset "UTF-8";
+.boardnav{
+	position : relative;
+	margin-top : 20px;
+	margin-left : 660px;
+	margin-right : 400px;
+	width :884px;
+	padding-top : 70px;
+}
+.contenthr{
+	border : 2px solid #324B4C;
+	box-shadow:5px 5px 5px 5px lightgray;
+	    position: relative;
+    bottom: 53px;
+
+}
+.searchbtn{
+	position : relative;
+	background-color : #324B4c;
+	color : white;
+	width : 80px;
+	height : 30px;
+	border:1px solid #E4E5E8;
+	box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius : 5px;
+}
+.search{
+	position : relative;
+	width : 300px;
+	height : 20px;
+	box-shadow : inset 0px 4px 4px rgba(0,0,0,0.25);
+	border : 1px solid #E4E5E8;
+	border-radius : 5px;
+	
+}
+.pbtn{
+	position : relative;
+	background-color : white;
+	border : none;
+	font-weight : bold;
+	font-size : 15px;
+	font-family: 'Pretendard-Regular';
+	
+	
+}
+.lbtn{
+	position : relative;
+	background-color : white;
+	
+	border: none;
+	font-weight : bold;
+	font-size : 15px;
+	font-family: 'Pretendard-Regular';
+	
+}
+.arraybtn{
+	position : relative;
+	
+}
+.menunav{
+	position : relative;
+	width : 1714px;
+}
+.ulmenu{
+	list-style:none;
+	position : relative;
+	
+	padding : 0px;
+	width : 200px;
+}
+.limenu{
+	
+	height : 50px;
+	padding :10px 25px;
+	
+}
+.limenu{
+	color : black;
+	font-size : 20px;
+	text-decoration:none;
+	font-family: 'Pretendard-Regular';
+}
+.active{
+	text-decoration : none;
+	color : black;
+	font-weight : bold;
+}
+.limenu:hover{
+	background-color : #324B4C;
+	color : white;
+}
+.boarduldiv{
+	position : relative;
+	width : 883px;
+	background-color : #F7F8F8;
+	height : 307px;
+	
+}
+.ullist{
+	list-style : none;
+	width : 848px;
+	
+}
+.contentdiv{
+	
+	
+}
+.boardsec{
+	position : relative;
+	
+}
+.uldiv{
+	position : absolute;
+	margin-left : 300px;
+	border : 1px solid black;
+	width :200px;
+	border-radius : 5px;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	box-sizing : border-box;
+
+	
+	
+}
+.boarduldiv{
+	position : relative;
+	margin : 20px 0px;
+	margin-left : 656px;
+	margin-right : 400px;
+}
+.titlespan{
+	
+	font-size : 30px;
+	
+	
+}
+.userspan{
+	
+	font-size : 20px;
+	
+}
+.imagediv{
+	width : 260px;
+	height : 260px;
+	
+}
+.image{
+	left: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    border : 1px solid gray;
+	box-shadow : 0px 0px 3px 0px;
+	width : 150px;
+	height : 150px;
+	top : 72px;
+	
+}
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+.user{
+	    top: 107px;
+    position: absolute;
+    left: 259px;
+	 font-family: 'Pretendard-Regular';
+	 font-size : 18px;
+	 background-color : #324B4C;
+	 font-weight : bold;
+	 color : white;
+	 border-radius : 10px;
+	 border : none;
+	 width : 60px;
+	 height : 30px;
+	 text-align : center;
+	 
+	 
+}
+.Into{
+	position :relative;
+	 left : 230px;
+	 bottom : 125px;
+	 
+
+	 font-family: 'Pretendard-Regular';
+	 font-size : 18px;
+}
+.searchdiv{
+	
+	position: relative;
+    left: 400px;
+}
+.title{
+
+	 font-family: 'Pretendard-Regular';
+	 font-size : 25px;
+	 position : relative;
+	 left : 200px;
+	 
+
+	 
+}
+.boardh1{
+	font-family: 'Pretendard-Regular';
+}
+
+.contestbanner{
+	margin :0px 656px;	
+}
+.contestimg{
+	width : 890px;
+	height : 150px;
+}
+.form-control{
+	width : 80px;
+	height : 20px;
+	font-size : 15px;
+	
+	font-family: 'Pretendard-Regular';
+}
+.talk{
+	
+	display : block;
+	width : 700px;
+	height : 200px;
+	
+}
+.talk2{
+	    display: block;
+    width: 600px;
+    height: 129px;
+    position: relative;
+    top: 85px;
+    right : 45px;
+}
+
+.contentimg{
+	display : block;
+}
+a{
+	text-decoration-line : none;
+	color : black;
+}
+.titlea{
+	position: absolute;
+    top: 65px;
+    left: 59px;
+}
+.fIntoa{
+	position : absolute;
+	    top: 137px;
+    left: 44px;
+}
+.star{
+	position : absolute;
+	left: 793px;
+    top: 79px;
+}
+.heartspan{
+	position: absolute;
+    top: 31px;
+    right: 11px;
+
+}
+.date{
+	position : relative;
+	left: 337px;
+    bottom : 220px;
+} 

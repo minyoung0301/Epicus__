@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+.titlenav{
+	margin : 0px 420px;
+	margin-top : 30px;
+	width : 1060px;
+	padding-top : 70px;
+	
+}
+.titlespan{
+	font-weight : bold;
+	font-size : 30px;
+	
+}
+.roundspan{
+	font-size : 25px;
+	float : right;
+	position : relative;
+	font-weight : bold;
+
+ 
+	
+}
+.roundbox{
+	width :20px;
+	height : 25px;
+	float: right;
+    position: relative;
+    margin: 0px 10px;
+    font-size: 25px;
+    top: 3px;
+}
+.creatediv{
+	font-weight : bold;
+	font-size : 25px;
+	margin : 0px 420px;
+}
+.image{
+	position : relative;
+	float : right;
+}
+.createsec{
+	background-color : rgba(50,75,76,0.07);
+	
+	
+}
+.imagediv{
+	position : relative;
+	margin : 10px 420px;
+	background-color : white;
+	
+}
+.subdiv{
+	font-weight : bold;
+	font-size : 25px;
+	margin : 10px 420px;
+}
+.sub{
+	margin : 10px 420px;
+	width : 1050px;
+	height : 30px;
+	resize : none;
+	padding : 5px 5px;
+	border-radius : 5px 5px 5px 5px;
+	border : 1px solid #969FAB;
+	font-family: 'Pretendard-Regular';
+	font-size : 25px;
+	box-shadow: inset 0px 4px 4px rgba(0,0,0,0.25);
+	
+}
+.sum{
+	width :1050px;
+	font-weight : bold;
+	font-size : 25px;
+	margin : 10px 420px;
+	
+	
+}
+.summary{
+	margin : 0px 420px;
+	width : 1050px;
+	height : 80px;
+	border-radius : 5px 5px 5px 5px;
+	border : 1px solid #969FAB;
+	font-size : 25px;
+	padding : 5px 5px;
+	font-family: 'Pretendard-Regular';
+	resize : none;
+	box-shadow: inset 0px 4px 4px rgba(0,0,0,0.25);
+}
+textarea::placeholder {
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+}
+.storybox{
+	font-weight : bold;
+	font-size : 25px;
+	width :1050px;
+	margin : 0px 420px;
+	margin-top : 20px;
+}
+#ss{
+	margin : 0px 420px;
+	width :1060px;
+	box-shadow: inset 0px 4px 4px rgba(0,0,0,0.25);
+	height : 1000px;
+	border-radius : 5px 5px 5px 5px;
+	border : 1px solid #969FAB;
+	
+}
+.list{
+	background-color :white;
+	
+	color : #324B4C;
+	width : 300px;
+	height : 70px;
+	
+	font-weight : bold;
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	border-radius : 16px;
+	float : left;
+	box-shadow : 2px 12px 14px -5px rgba(0,0,0,0.25);
+	margin-left : 10px;
+}
+.create{
+	background-color : #324B4c;
+	color : white;
+	width : 300px;
+	height : 70px;
+	font-weight : bold;
+	float : right;
+	font-size : 20px;
+	border-color : #324B4C;
+	font-family: 'Pretendard-Regular';
+	border-radius : 16px;
+	box-shadow : 2px 12px 14px -5px rgba(0,0,0,0.25);
+	margin-left : 10px;
+}
+.createfooter{
+	margin : 30px 410px;
+	text-align:center;
+	height : 70px;
+	width :1075px;
+}
+.box{
+	width : 1070px;
+	margin : 20px 420px;
+}
+#image{
+	display : none;
+	
+}
+label{
+    margin: 0px 65px;
+    margin-top: 154px; 
+}
+
+.cover{
+	width : 200px;
+	height : 200px;
+	background-color : white;
+	border : 1px solid #324B4C;
+}
+.imagefile{
+	margin : 30px 430px;
+	display : flex;
+	
+}
+.select{
+	width : 200px;
+	padding : 10px;
+	background-color : #324B4C;
+	color : white;
+	font-weight : bold;
+	font-size : 20px;
+	border-radius : 20px;
+	border : none;
+	text-align : center;
+	
+}
+.inputspan{
+	    margin: 0px 414px;
+}
+
+

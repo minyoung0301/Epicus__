@@ -1,0 +1,265 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.html{
+	width : 1900px;
+}
+body{
+	overflow : hidden;
+}
+.mycontentnav{
+padding-top : 80px;
+		
+	
+}
+.mycontentdiv{
+	position : relative;
+	margin : 0px 310px;
+	width :1094px;
+	font-size : 30px;
+	font-weight: bold;
+	margin-top : 40px;
+	font-family: 'Pretendard-Regular';
+	
+}
+.mycontenthr{
+		margin : 0px 310px;
+
+	width : 184px;
+	border:2px solid #5E6697;
+}
+.contenthr{
+	position : relative;
+	margin : 0px 0px;
+}
+.contenthr2{
+	margin : 0px 310px;
+	border : 2px solid rgba(50,75,76,0.88);
+	width :1264px;
+	
+}
+.mycontent{
+	
+	font-size : 30px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	position : relative;
+	margin : 0px 10px;
+	
+}
+.buttonspan{
+	position:relative;
+
+	float : right;
+	
+}
+.createspan{
+	position : relative;
+	float : right;
+}
+
+
+.contentbox{
+	position : relatvie;
+	margin : 10px 0px;
+	
+	
+}
+.searchbox{
+	width : 430px;
+	height: 25px;
+	resize : none;
+	
+	
+}
+.input{
+	outline:none;
+	
+}
+
+.contentdiv{
+	position : relative;
+	text-align : center;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	margin-top :20px;
+	
+}
+.contentsection2{
+	position : relative;
+	height : 400px;
+	margin : 40px 310px;
+	width :1264px;
+	box-shadow : 5px 5px 5px 5px lightgray;
+	padding-bottom : 130px;
+	background-color : #F7F8F8;
+	border-radius: 20px;
+	border-bottom : 2px solid rgba(50,75,78,0.88);
+}
+.ullist{
+	position : relative;
+	margin : 20px 40px;
+	list-style : none;
+	float : left;
+
+}
+.uldiv{
+	width : 500px;
+}
+.content1{
+	list-style : none;
+	
+	
+	
+}
+
+.image{
+	border : 1px solid #bfbfbf;
+	width : 180px;
+	text-align : center;
+	height : 180px;
+	box-shadow : 3px 3px 3px 3px #769192;
+	border-radius : 10px;
+	background-color : white;
+	
+}
+.form-control{
+	width: 80px;
+    height: 30px;
+        margin-left: 720px;
+    border-radius: 15px;
+    top: 3px;
+    position: relative;
+    font-family: 'Pretendard-Regular';
+}
+.searchdiv>button{
+	background-color : white;
+	position : absolute;
+
+	border: none;
+	left :1230px;
+	top :30px;
+	
+}
+.magic{
+	    position: absolute;
+    top: 198px;
+    left: 1205px;
+    width: 31px;
+}
+.freepen{
+	    position: absolute;
+    width: 28px;
+    top: 202px;
+    left: 579px;
+}
+
+
+
+
+
+
+
+
+.nextdiv{
+	float : right;
+}
+.free{
+	background-color : #324B4C;
+	color : white;
+	font-weight : bold;
+	font-size : 20px;
+	width : 630px;
+	height : 50px;
+	border : none;
+	border-radius : 30px;
+	font-family: 'Pretendard-Regular';
+	box-shadow :0px 10px 4px 0px lightgray;
+	
+}
+.wizard{
+		background-color : #324B4C;
+	color : white;
+	font-weight : bold;
+	font-size : 20px;
+	width : 630px;
+	height : 50px;
+	border : none;
+	box-shadow :0px 10px 4px 0px lightgray;
+	border-radius :30px;
+	font-family: 'Pretendard-Regular';
+	float : right;
+}
+
+.contentsection{
+	margin : 0px 310px;
+	width : 1267px;
+	margin-top : 25px;
+}
+.searchbox{
+	position : relative;
+	float : right;
+	height : 10px;
+	border-radius :20px;
+	padding : 10px 10px;
+	font-family: 'Pretendard-Regular';
+	overflow : hidden;
+	font-size : 15px;
+	
+}
+.searchdiv{
+	position : relative;
+	padding : 20px 0px;
+}
+.pluscreate{
+	position : absolute;
+	width : 220px;
+	height : 60px;
+	background-color : #324B4c;
+	color : white;
+	font-size : 17px;
+	font-family: 'Pretendard-Regular';
+	border : none;
+	border-radius : 500px 0px 0px 500px;
+	box-shadow : 12px 8px 15px 4px rgba(0,0,0,0.25);
+	
+}
+.deletebtn{
+	position: relative;
+    top: 70px;
+}
+.delete{
+	position : absolute;
+	width : 220px;
+	height : 60px;
+	background-color : #324B4c;
+	color : white;
+	border : none;
+	font-size : 17px;
+	
+	font-family: 'Pretendard-Regular';
+	border-radius : 500px 0px 0px 500px;
+	box-shadow : 12px 8px 15px 4px rgba(0,0,0,0.25);
+	
+}
+
+.createbtn{
+	position : relative;
+	
+}
+.btndiv{
+	float: right;
+    position: relative;
+    left: 120px;
+}
+img{
+	position: relative;
+    top: 23px;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.mypagediv{
+	overflow-x : hidden;
+}
+.stardiv{
+	margin : 30px 30px;
+	
+	
+}
+.coverimg{
+	width : 140px; 
+	height : 140px;
+}
+.cover{
+	position : absolute;
+	width : 140px; 
+	height : 140px;
+	background-color : white;
+	box-shadow : 0px 0px 3px 0px;
+	
+}
+.starhr{
+	border : 1px solid gray;
+	position: relative;
+    top: 83px;
+}
+.fTitle{
+	position : relative;
+	font-family: 'Pretendard-Regular';
+	font-size : 25px;
+	left : 177px;
+	top : 10px;
+	
+
+}
+.fInto{
+	position : relative;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	left : 177px;
+	top : 40px;
+}
+.author1{
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	color : gray;
+	position: relative;
+    top: 60px;
+    left: 210px;
+
+}
+.profile1{
+	       position: absolute;
+    top: 143px;
+    left: 707px;
+}
+.star{
+	    position: absolute;
+    left: 1399px;
+    top: 86px;
+}
+#heart{
+	width : 40px;
+	height : 40px;
+}

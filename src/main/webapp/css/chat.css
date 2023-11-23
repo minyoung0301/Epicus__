@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.chatbtn{
+	background-color : white;
+	border: none;
+	position :absolute;
+	
+}
+.chatimg{
+	width : 60px;
+	height : 60px;
+}
+#chatbox{
+	position :absolute;
+	
+}
+#chat-container{
+    display: none;
+    position: absolute;
+    left: 1535px;
+    border: 3px solid rgb(50, 75, 76);
+    width: 260px;
+    height: 408px;
+    top: 342px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.quickmenu{
+	position : absolute;
+	float : right;
+	top : 750px;
+	left : 1800px;
+	width : 80px;
+	height : 80px;
+	border : 1px solid lightgray;
+	box-shadow : 0px 0px 3px 0px lightgray;
+	border-radius : 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer;
+	
+	
+}

@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.body {font-size:11pt; padding:0; margin:0; text-align: center;}
+	.h3 {color: #85144b; font-size: 14pt; margin:10 auto; padding: 10px;}
+	.contents {width: 1230px; height: 500px; margin: 0 auto;}
+	
+	/* banner */
+	.banner {position: relative; width: 1230px; height: 500px;   margin:0 auto; padding:0; overflow: hidden;}
+	.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
+	.banner ul li {float: left; width: 1230px; height: 500px; margin:0; padding:0;}
+.homenav{
+	position :relative;
+	height : auto;
+	padding : 30px 50px;
+	padding-top : 70px;
+	
+}
+.banner2{
+	position :relative;
+	list-style : none;
+	float : left;
+	
+}
+.banner3{
+	position :relative;
+	list-style : none;
+	float : right;
+	
+}
+.b2{
+	width : 600px;
+	height : 120px;
+}
+.b3{
+	width : 640px;
+	height : 120px;
+}
+.homenav2{
+	margin : 0px 310px;
+	height : 150px;
+	width :1267px;
+}
+.rank{
+	font-size : 20px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	
+}
+.all{
+	float : right;
+	
+}
+.main2{
+	position :relative;
+	margin : 20px 300px;
+	
+}
+.allbtn{
+	background-color : white;
+	border : none;
+	font-size : 15px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	cursor:pointer;
+	color : gray;
+	
+	
+}
+.contentul{
+	display:grid;
+	grid-template-columns: repeat(2, 250px);
+	grid-gap: 10px 350px;
+}
+.contentli{
+	display:flex;
+}
+.contentimg{
+	width :180px;
+	height :180px;
+}
+.content{
+	width :1250px;
+
+
+	
+}
+
+.main3{
+	margin : 40px 310px;
+}
+.new{
+	width :180px;
+	height : 230px;
+}
+.newli{
+	list-style:none;
+	margin-right : 30px;
+}
+.newcontent{
+	display :flex;
+		margin-left: 10px;
+    margin-top: 20px;
+}
+.info{
+	display : flex;
+}
+.foothr{
+	width : 1267px;
+	margin : 0px 298px;
+	background-color :rgba(0,0,0,0.25);
+}
+.footli{
+	list-style: none;
+	font-family: 'Pretendard-Regular';
+	color : gray;
+	margin : 20px 300px;
+	
+}
+.title1{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	margin-left : 10px;
+	margin-right : 130px;
+	
+}
+.title2{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	margin-right : 100px;
+	
+}
+.title3{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	margin-right: 135px;
+	
+}
+.title4{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	margin-right: 135px;
+	
+    
+	
+}
+.title5{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	margin-right: 135px;
+}
+.title6{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	display:flex;
+	list-style : none;
+	
+	
+}
+.content ul{
+	display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-gap: 10px 350px;
+}
+.content li{
+	font-family: 'Pretendard-Regular';
+	
+	list-style : none;
+}
+.title{
+	font-weight : bold;
+	
+}

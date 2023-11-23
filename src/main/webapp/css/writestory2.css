@@ -1,0 +1,111 @@
+@charset "EUC-KR";
+.titlenav{
+	position : relative;
+	margin-top : 20px;
+	margin : 0px 300px;
+	
+	border-bottom : 1px solid rgba(45,67,89, 0.4);
+}
+.rounddiv{
+	float : right;
+	position : relative;
+	margin-top : 10px;
+	
+	
+}
+.titlediv{
+	margin-top : 20px;
+}
+.titlespan{
+	font-size : 30px;
+	font-weight : bold;
+	
+	
+}
+.round{
+	float : right;
+	padding-top : 15px;
+}
+.writebox{
+	position : relative;
+	margin : 0px 350px;
+}
+.contentdiv{
+	border: 1px solid gray;
+	height : 80px;
+	text-align : center;
+	
+}
+.inputdiv{
+	position : relative;
+	
+	margin : 20px 0px;
+}
+.inputbox{
+	position : relative;
+	
+	
+}
+.subtitle{
+	margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+.DBbutton{
+	position : relative;
+	
+	
+	margin : 0px 300px;
+	
+}
+.footerbutton{
+	position :relative;
+	
+	
+	
+}
+.before{
+	position : relative;
+	
+	background-color : #4478A8;
+	border : none;
+	color : white;
+	width : 85px;
+	height : 35px;
+	font-size : 20px;
+	object-fit:cover;
+	cursor : pointer;
+	
+	
+}
+.next{
+	background-color : #4478A8;
+	border : none;
+	color : white;
+	position : relative;
+	float : right;
+	width : 85px;
+	height : 35px;
+	font-size : 20px;
+	object-fit:cover;
+	cursor : pointer;
+	
+	
+}
+.footerhr{
+	position : relative;
+	
+}
+.inputbox{
+	padding:250px 435px;
+	font-size : 25px;
+}
+.input::placeholder{
+	font-size : 35px;
+}

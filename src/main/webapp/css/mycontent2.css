@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.mycontentnav{
+	position : relative;
+	
+	margin-top : 60px;
+	
+}
+.mycontenthr{
+	width : 200px;
+	float : left;
+	margin : 0px 500px;
+	border-color : #5E6697;
+}
+.mycontenth1{
+	margin :0px;
+	margin : 0px 500px;
+	font-size : 40px;
+	
+	
+}
+.selectul{
+	position :relative;
+	padding:0px;
+	text-align : center;
+	
+	
+}
+.freeli{
+	position : relative;
+	float : left;
+	list-style:none;
+	background-color : #324B4c;
+	color : white;
+	width : 450px;
+	height : 70px;
+	border-radius : 5px 5px 5px 5px;
+	text-align : center;
+	
+	
+}
+.wizardli{
+		position : relative;
+	float : right;
+	list-style:none;
+	background-color : #324B4c;
+	color : white;
+	width : 450px;
+	height : 70px;
+	border-radius : 5px 5px 5px 5px;
+	text-align : center;
+}
+.uldiv{
+	margin : 0px 500px;
+}
+.searchtext{
+	
+}

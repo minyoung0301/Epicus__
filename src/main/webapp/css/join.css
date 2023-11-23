@@ -1,0 +1,152 @@
+@charset "EUC-KR";
+
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+.joinsec {
+	background-color: #F2F2F2;
+	height: 900px;
+	text-align: center;
+}
+
+.joindiv {
+	position: absolute;
+	width: 500px;
+	height: 700px;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px gray;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	left: 700px;
+	top: 120px;
+}
+
+.home {
+	margin-top: 15px;
+	font-size: 40px;
+}
+
+.login {
+	position: relative;
+	text-align: center;
+}
+
+.name {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	float: left;
+	margin: 0px 70px;
+}
+
+.uid {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	float: left;
+	margin: 0px 70px;
+}
+
+.password {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	float: left;
+	margin: 0px 70px;
+}
+
+.confirmpwd {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	float: left;
+	margin: 0px 70px;
+}
+
+.uemail {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	float: left;
+	margin: 0px 70px;
+}
+
+.confirm {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 80px;
+	height: 40px;
+	background-color: #324B4C;
+	border-color: #324B4C;
+	border-radius: 10px 10px 10px 10px;
+	color: white;
+}
+
+.joinbutton {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 350px;
+	height: 50px;
+	font-weight: bold;
+	color: white;
+	background-color: #324B4C;
+	border-radius: 10px 10px 10px 10px;
+	margin: 20px 0px;
+	font-size: 25px;
+	font-weight: bold;
+	border-color: #4478A8;
+	cursor: pointer;
+}
+
+.namebox {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 250px;
+	height: 50px;
+	margin: 10px 50px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	margin-left: 35px;
+}
+
+.idbox {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 250px;
+	height: 50px;
+	margin: 10px 50px;
+	border-radius: 15px; border : 1px solid rgba( 0, 0, 0, 0.50);
+	background : #FFF; box-shadow : 0px 4px 4px 0px rgba( 0, 0, 0, 0.25)
+	inset;
+	margin-left: 35px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.pwdbox {
+	
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 350px;
+	height: 50px;
+	margin: 10px 70px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.emailbox {
+	font-family: 'Pretendard-Regular';
+	position: relative;
+	width: 350px;
+	height: 50px;
+	margin: 10px 70px;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.50);
+	background: #FFF;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}

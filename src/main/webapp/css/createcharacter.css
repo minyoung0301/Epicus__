@@ -1,0 +1,174 @@
+@charset "UTF-8";
+.createsec{
+	margin : 0px 410px;
+	margin-top : 100px;
+	font-family: 'Pretendard-Regular';
+	
+}
+.createh1{
+	font-size : 32px;
+}
+textarea{
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+}
+textarea::placeholder{
+	font-size : 22px;
+	font-family: 'Pretendard-Regular';
+}
+.coverimg{
+	width : 200px;
+	height : 200px;
+	position : relative;
+	border : 1px solid #324b4c;
+	
+}
+.explanation{
+	width : 1060px;
+	height : 40px;
+	
+}
+.namediv{
+	position : relative;
+	width : 300px;
+	
+}
+.createsec div:not(.img){
+	font-size : 23px;
+	margin : 10px 0px;
+}
+label{
+	font-size : 15px;
+	color : white;
+	border-radius : 10px;
+	padding : 12px;
+	position: relative;
+    left: 42px;
+    top: 12px;
+
+	
+}
+.infodiv{
+	position : relative;
+	height : 325px;
+	left : 177px;
+}
+.infodiv div{
+	position : absolute;
+	width : 50px;
+	
+}
+.infodiv textarea{
+	position : absolute;
+	width : 300px;
+}
+.createhr2{
+	margin : 0px 410px;
+	
+}
+.btnfooter{
+	margin : 30px 410px;
+	
+}
+.listbtn{
+	background-color : #324B4C;
+	color : white;
+	width : 200px;
+	height : 50px;
+	border-radius : 15px;
+	border : none;
+	box-shadow : 0px 0px 5px 0px;
+	cursor : pointer;
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	
+}
+.createbtn{
+	background-color : #324B4C;
+	color : white;
+	width : 200px;
+	height : 50px;
+	border-radius : 15px;
+	border : none;
+	box-shadow : 0px 0px 5px 0px;
+	cursor : pointer;
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+}
+.infoul{
+	list-style : none;
+	position :absolute;
+	
+	
+}
+.infoul2{
+	list-style : none;
+	position :absolute;
+	left : 432px;
+	
+	
+}
+textarea{
+	resize : none;
+	overflow : hidden;
+}
+.infoli{
+	margin : 30px 30px;
+}
+.infoli2{
+	margin : 30px 30px;
+}
+.infoli3{
+	margin : 30px 50px;
+}
+.infoli textarea{
+	margin-left : 20px;
+}
+.infoli2 textarea{
+	margin-left : 20px;
+}
+.infoli3 textarea{
+	margin-left : 20px;
+}
+.createimage{
+	position : absolute;
+}
+.img{
+	position : absolute;
+	float : left;
+	margin-top : 55px;
+}
+.infohr{
+	border : 1px dotted #324b4c;
+	margin : 30px 0px;
+}
+.btnfooter{
+	position: relative;
+    float: right;
+}
+.user{
+	width : 200px;
+}
+.personality{
+	width: 1062px;
+}
+.appearance{
+	width: 1062px;
+}
+.talent{
+	width: 1062px;
+}
+.advantage{
+	width: 1062px;
+}
+.role{
+	width: 1062px;
+}
+.hobby{
+	width: 1062px;
+}
+.etc{
+	width : 1062px;
+}

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+.number{
+	font-weight : bold;
+	font-size : 30px;
+	font-family: 'Pretendard-Regular';
+	
+}
+.Date{
+	float : right;
+	font-family: 'Pretendard-Regular';
+}
+.titlenav{
+	position : relative;
+	margin : 0px 410px;
+	margin-top : 50px;
+	padding-top : 70px;
+}
+.freeInto{
+	font-size : 20px;
+	font-family: 'Pretendard-Regular';
+}
+.titlehr{
+	border-color : #324B4C;
+	
+}
+.subtitlediv{
+	background-color : #324B4C;
+	color : white;
+	border : none;
+	margin : 0px 410px;
+	
+	border-radius : 20px 20px 0px 0px;
+	padding : 10px 20px;
+	font-size : 23px;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	
+	
+}
+.alldownload{
+	float : right;
+	background-color : #324B4C;
+	color : white;
+	border : none;
+	top : 10px;
+	position : relative;
+	height : 30px;
+	width : 200px;
+	font-family: 'Pretendard-Regular';
+	font-size : 18px;
+	border-radius : 5px 5px 5px 5px;
+	font-weight : bold;
+}
+.summarydiv{
+	background-color : white;
+	color : black;
+	border : none;
+	margin : 0px 410px;
+	height : 100px;
+	padding : 10px 20px;
+	border : 1px solid #969FAB;
+	font-family: 'Pretendard-Regular';
+}
+.downloaddiv{
+	position : relative;
+	margin : 0px 410px;
+	background-color : #E1E1E1;
+	border-color : #969FAB;
+	text-align : center;
+	border-radius:0px 0px 20px 20px;
+	border : 1px solid #969FAB;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	margin-bottom : 50px;
+	padding : 10px 20px;
+	font-family: 'Pretendard-Regular';
+	font-size : 18px;
+	
+}
+.downbtn{
+	background-color : #E1E1E1;
+	border:none;
+	color:#324B4C;
+	cursor : pointer;
+	font-family: 'Pretendard-Regular';
+	width : 200px;
+	font-weight : bold;
+	font-size : 18px;
+	border-radius : 5px 5px 5px 5px;
+	
+	
+}
+.allsec{
+	background-color : rgba(50,75,76,0.07);
+	
+}
+.list{
+	
+	background-color : #324B4C;
+	color : white;
+	width : 200px;
+	top : 10px;
+	position : relative;
+	height : 30px;
+	border-radius : 5px 5px 5px 5px;
+	box-shadow : 0px 4px 4px rgba(0,0,0,0.25);
+	border :1px solid #324B4C;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	font-size : 18px;
+	
+	
+	
+}
+@font-face {
+	font-family: 'Pretendard-Regular';
+	src:
+		url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.downspan{
+	float : right;
+}
+.openbtn{
+		
+	background-color : #324B4C;
+	color : white;
+	width : 200px;
+	border : none;
+	top : 10px;
+	position : relative;
+	height : 30px;
+	margin : 0px 15px;
+	border-radius : 5px 5px 5px 5px;
+	font-family: 'Pretendard-Regular';
+	font-weight : bold;
+	font-size : 18px;
+}
+.listbtn{
+	margin : 20px 410px;
+	font-family: 'Pretendard-Regular';
+	
+}
+

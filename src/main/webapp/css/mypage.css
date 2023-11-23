@@ -1,0 +1,259 @@
+@charset "UTF-8";
+.menubtn{
+	position : relative;
+	margin : 0px 200px;
+	
+	
+}
+.mypagenav{
+	margin-left : 730px;
+	margin-bottom : 40px;
+	margin-top : 140px;
+	position: relative;
+}
+.mymenu{
+	position : absolute;
+	background-color : #324B4C;
+	width : 260px;
+	height : 600px;
+	border-radius : 31px;
+	text-align : center;
+	float : left;
+	box-shadow : 0px 0px 5px 0px;
+	
+	
+}
+.profilecircle{
+	border-radius : 50%;
+	background-color : #F0F2F2;
+	border: 5px solid #324B4C;
+	position : absolute;
+	width : 150px;
+	height : 150px;
+	left : 53px;
+	bottom : -60px;
+	box-shadow : 0px 0px 5px 0px;
+	
+	
+}
+.d{
+	border-left : thick dotted #324B4C;
+	height : 600px;
+	float : left;
+	margin-left : 370px;
+	
+	}
+.myul{
+	padding : 0px 0px;
+	padding-top : 90px;
+}
+.myli{
+	list-style : none;
+	height : 80px;
+	
+}
+.myli a{
+		color : white;
+	font-size : 22px;
+	text-decoration : none;
+	font-family: 'Pretendard-Regular';
+}
+
+.lista{
+	text-decoration : none;
+	font-family: 'Pretendard-Regular';
+	color : black;
+}
+.mypagediv{
+	float : right;
+	height : 600px;
+	width : 1000px;
+	border-color : #324B4C;
+	background-color : #F0F2F2;
+	box-shadow : 0px 0px 5px 0px;
+	border-radius : 31px;
+	overflow : auto;
+	
+}
+.fbtn{
+	background-color : white;
+	border-color : #324B4C;
+	width : 100px;
+	height : 40px;
+	border-radius : 31px;
+	box-shadow : 0px 3px 3px 0px;
+}
+.ftext{
+	width : 400px;
+	height : 40px;
+	resize : none;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	border-radius : 31px;
+	padding : 0px 10px;
+}
+
+.tab_menu{
+	
+	
+	    position: absolute;
+}
+.fsearch{
+	background-color : #324B4C;
+	color : white;
+	font-weight : bold;
+	font-family: 'Pretendard-Regular';
+	font-size : 20px;
+	width : 80px;
+	height : 45px;
+	border : none;
+	border-radius : 31px;
+}
+.titleh1{
+	color : #324B4C;
+	font-family: 'Pretendard-Regular';
+	font-size : 35px;
+	font-weight : bold;
+	
+	
+}
+.titlehr{
+	color : #324B4C;
+}
+.profileimg{
+	width : 150px;
+	height : 150px;
+}
+
+.image{
+	background-color : white;
+	box-shadow : 0px 0px 5px 0px gray;
+	
+	
+	width : 140px;
+	height :140px;
+	
+	
+}
+.cover{
+	background-color : white;
+	
+}
+.mycontent{
+	margin : 0px 60px;
+	width : auto;
+	margin-top : 60px;
+	height : 180px;
+	
+	
+}
+.mycontenthr{
+	color: #324B4C;
+	margin : 0px 60px;
+}
+.Title{
+	font-family: 'Pretendard-Regular';
+	font-size : 40px;
+	margin-left: 200px;
+	position: relative;
+    bottom: 136px;
+}
+.Into{
+	font-family: 'Pretendard-Regular';
+	font-size : 23px;
+	position: relative;
+	margin-left: 200px;
+    bottom: 110px;
+}
+.date{
+	font-family: 'Pretendard-Regular';
+	font-size : 17px;
+	position: relative;
+    bottom: 220px;
+    margin-left: 387px;
+}
+img{
+	 width : 27px;
+    height: 27px;
+}
+.open{
+	position: relative;
+	    margin-left: 318px;
+    bottom: 197px;
+   
+}
+
+.userdiv{
+	font-family: 'Pretendard-Regular';
+	margin : 0px 50px;
+	margin-top :30px;
+	margin-bottom : 30px;
+	
+	height : 110px;
+	width : auto;
+}
+.profileimage1{
+	margin : 20px 50px;
+}
+.profileimg1{
+	width : 110px;
+	height : 110px;
+}
+.userID{
+	position: relative;
+	font-size : 25px;
+	margin-left : 270px;
+	color : gray;
+	bottom : 100px;
+	
+	
+	
+}
+.userName{
+	position: relative;
+	font-size : 30px;
+	margin-left : 150px;
+	bottom : 130px;
+	
+
+	
+	
+}
+.userhr{
+	margin :0px 60px;
+}
+.userimage{
+	width : 120px;
+	height : 120px;
+	border: 1px solid lightgray;
+    border-radius: 50%;
+    box-shadow : 0px 0px 5px 0px #324b4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : white;
+}
+.author{
+	color : black;
+	position : relative;
+	margin-left : 150px;
+	bottom : 110px;
+}
+.searchtab{
+	position: relative;
+    margin-left: 250px;
+}
+.followbtn{
+	    position: relative;
+    background-color: #324b4C;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    float: right;
+    bottom: 141px;
+    border-radius : 30px;
+    box-shadow : 0px 0px 3px 0px gray;
+    font-size : 18px;
+    border : none;
+}

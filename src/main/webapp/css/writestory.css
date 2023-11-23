@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+.writestory{
+	margin : 0 auto;
+	
+}
+.writeh1{
+	position : relative;
+	padding : 15px 20px;
+	margin : 0px 320px;
+}
+.writehr{
+	position :relative;
+	width : 1300px;
+	padding : 0px 0px;
+	
+}
+.writeh2{
+	position : relative;
+	padding : 10px 10px;
+	margin : 0px 350px;
+	
+}
+.inputbox{
+	
+	margin : 0 auto;
+}
+.storybox{
+	position : relative;
+	margin : 0px 350px;
+	
+	
+}

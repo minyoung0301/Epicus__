@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.cover{
+	width : 150px;
+	height : 150px;
+	background-color : white;
+	
+}
+.imagediv{
+	box-shadow : 0px 0px 3px 0px;
+	width : 150px;
+	height : 150px;
+	position : absolute;
+	
+}
+.readdiv{
+	    height: 150px;
+	width : 900px;
+	position : relative;
+	margin : 40px 40px;
+}
+.readtitle{
+	position : absolute;
+	font-size : 30px;
+	font-weight : bold;
+	color : black;
+	font-family: 'Pretendard-Regular';
+	    left: 200px;
+	
+	
+}
+.readInto{
+	position : absolute;
+	font-size : 25px;
+	font-family: 'Pretendard-Regular';
+	left: 200px;
+	top : 60px;
+}
+.author{
+	position : absolute;
+	font-size : 15px;
+	font-family: 'Pretendard-Regular';
+	color : white;
+	background-color : #324B4C;
+	box-shadow : 0px 0px 3px 0px;
+	width : 60px;;
+	height : 30px;
+	border-radius : 15px;
+	text-align : center;
+	left : 240px;
+	
+
+}
+.readhr{
+	background-color : 1px solid gray;
+}
+.next{
+	position : absolute;
+	font-size : 13px;
+	font-family: 'Pretendard-Regular';
+	color : gray;
+	left : 200px;
+	top : 100px;
+}
+.contenta{
+	
+	color : gray;
+	font-family: 'Pretendard-Regular';
+	font-size : 13px;
+	
+}
+.delete{
+	position : relative;
+	float : right;
+	top :  20px;
+}
+.deletebtn{
+	
+	border : none;
+	
+}

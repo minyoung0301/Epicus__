@@ -1,0 +1,50 @@
+@charset "EUC-KR";
+.leavep{
+	font-weight : bold;
+	font-size : 30px;
+	color : #324B4C;
+	font-family: 'Pretendard-Regular';
+	margin : 0px 440px;
+	margin-top : 80px;
+	margin-bottom : 10px;
+}
+.leavehr{
+	margin : 0px 300px;
+	border: 1px solid #324B4C;
+	
+}
+.leavebtn{
+	background-color : #324B4C;
+	color : white;
+	font-family: 'Pretendard-Regular';
+	width : 200px;
+	height : 50px;
+	border : none;
+	font-size : 20px;
+	border-radius : 10px;
+	float : right;
+	box-shadow : 0px 0px 3px 0px black;
+	
+}
+.leavep2{
+	font-size : 30px;
+	color : #324B4C;
+	font-family: 'Pretendard-Regular';
+	margin : 100px 200px;
+	text-align : center;
+}
+.cancelbtn{
+	background-color : #324B4C;
+	color : white;
+	font-family: 'Pretendard-Regular';
+	width : 200px;
+	height : 50px;
+	border : none;
+	font-size : 20px;
+	border-radius : 10px;
+	margin-right : 100px;
+	box-shadow : 0px 0px 3px 0px black;
+}
+.btndiv{
+	margin : 0px 200px;
+}
